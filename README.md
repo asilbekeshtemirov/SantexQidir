@@ -88,7 +88,6 @@
 - customerId  
 - providerId  
 - serviceId  
-- date  
 - time  
 - address  
 - description  
