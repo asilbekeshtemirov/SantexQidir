@@ -4,7 +4,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "parcel src/index.html src/pages/*.html --port ",
     "start:dev": "nodemon src/server.js"
   },
   "keywords": [],
@@ -12,13 +12,25 @@
   "license": "ISC",
   "description": "",
   "devDependencies": {
-    "nodemon": "^3.1.9"
+    "nodemon": "^3.1.9",
+    "parcel-bundler": "^1.12.5"
   },
   "dependencies": {
+    "axios": "^1.8.4",
+    "bcrypt": "^5.1.1",
+    "bcryptjs": "^3.0.2",
+    "cookie-parser": "^1.4.7",
     "cors": "^2.8.5",
     "dotenv": "^16.5.0",
     "express": "^5.1.0",
+    "helmet": "^8.1.0",
     "joi": "^17.13.3",
-    "path": "^0.12.7"
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.13.2",
+    "morgan": "^1.10.0",
+    "parcel": "^2.14.4",
+    "path": "^0.12.7",
+    "path-to-regexp": "^8.2.0",
+    "uuid": "^11.1.0"
   }
 }
